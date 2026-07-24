@@ -26,9 +26,9 @@ methods and results, and a bibliography.
 
 ## Results
 
-![Minimum detectable within-person cross-lagged regression coefficients - figure](images/mde_plot.pdf)
+![Minimum detectable within-person cross-lagged regression coefficients - figure](images/mde_plot.png)
 
-![Minimum detectable within-person cross-lagged regression coefficients - table](images/Table.html)
+![Minimum detectable within-person cross-lagged regression coefficients - table](images/table.png)
 
 ## License
 
