@@ -3,6 +3,14 @@ Power and Minimum Detectable Effect Analysis: RI-CLPM
 Memory and Depressive Symptoms Working Group
 <br>September 24, 2026
 
+<style type="text/css">
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12pt;
+  font-weight: normal;
+}
+</style>
+
 ## 1. Libraries
 
 ``` r
@@ -86,7 +94,10 @@ cross-lagged effects; the random-intercept correlation; and the
 within-component correlation. The number of repeated measures was fixed
 at 3 to reflect the number of waves of available CLSA data.
 
-![](images/eq1.png)
+<figure>
+<img src="images/eq1.png" alt="EQ1" />
+<figcaption aria-hidden="true">EQ1</figcaption>
+</figure>
 
 For each of the 756 conditions, 1,000 datasets (reps = 1,000) were
 generated from the input values using the data simulation procedure in
@@ -109,7 +120,10 @@ at a time, requiring 36 separate runs of the package. Each run evaluated
 covered all 756 conditions. Elapsed time to complete the 36 runs was
 10:50:59 (hh:mm:ss).
 
-![](images/eq2.png)
+<figure>
+<img src="images/eq2.png" alt="EQ2" />
+<figcaption aria-hidden="true">EQ2</figcaption>
+</figure>
 
 We fitted each of the 1,000 replications per condition with the RI-CLPM
 by maximum likelihood. Power for a given parameter[^2] was computed as
