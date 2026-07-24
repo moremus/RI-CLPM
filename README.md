@@ -19,7 +19,7 @@ data must apply for access. Visit https://www.clsa-elcv.ca/data-access/ for more
 ## Files in the repository
 
 1. Bibliography.bib: all references shown at the end of Power_Calculations_RI-CLPM.html.
-2. Power_Calculations_RI-CLPM.html: the R code used in the power analysis, along with written
+2. Power_Calculations_RI-CLPM.md: the R code used in the power analysis, along with written
 methods and results, and a bibliography.
 3. powRICLPM_fits.rds: cached 'powRICLPM' simulation results from all 36 runs.
 4. Simulation_Log.docx: timestamps for all 36 runs.
